@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Api_Restful.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api-Restful.AccesData\Api-Restful.AccesData.csproj" />
+    <ProjectReference Include="..\Api-Restful.Domain\Api-Restful.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
